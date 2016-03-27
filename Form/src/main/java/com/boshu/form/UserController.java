@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class UserController {
-    private static final String[] countries = { 
+    private static final String[] countries = {
         "China", "US", "Japan"
     };
     

@@ -7,7 +7,7 @@
 <body>
 
 <h2>User Registration Form</h2>
-<mvc:form modelAttribute="user" action="result.jsp">
+<mvc:form modelAttribute="user" action="result.do">
 	<table>
 	    <tr>
 	        <td><mvc:label path="name">Name</mvc:label></td>
@@ -25,10 +25,6 @@
 	        <td><mvc:label path="detail">Detail</mvc:label></td>
 	        <td><mvc:textarea path="detail" /></td>
 	    </tr>
-		<tr>
-            <td><mvc:label path="birthDate">Birth Date</mvc:label></td>
-            <td><mvc:input path="birthDate" /></td>
-        </tr>
         <tr>
 	        <td><mvc:label path="gender">Gender</mvc:label></td>
 	        <td><mvc:radiobuttons path="gender" items="${genders}" /></td>
